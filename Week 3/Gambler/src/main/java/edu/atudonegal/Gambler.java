@@ -36,8 +36,10 @@ public class Gambler {
       int goal = getGoal();
 
       // Game logic
-      while (pot > 0 && pot < goal) {
+      while (pot > 0 && pot < goal) 
+      {
         // TO DO - Implement game logic
+        // hellow some more comments
 
       }
       if (pot == goal) {
