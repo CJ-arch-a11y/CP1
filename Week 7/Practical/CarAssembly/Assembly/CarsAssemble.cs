@@ -44,9 +44,38 @@ namespace Assembly
         public static double SuccessRate(int speed)
         {
             // Todo: implement the method SuccessRate
-            throw new NotImplementedException("Please implement the (static) AssemblyLine.SuccessRate() method");
-        }
+            ///throw new NotImplementedException("Please implement the (static) AssemblyLine.SuccessRate() method");
 
+            //string speed;
+            double successRate;
+
+
+            speed = Console.ReadLine();
+
+
+            if (speed == 0)
+            {
+                return SuccessRate(0);
+            }
+
+            else if (speed >= 1 && speed <= 4) {
+                return SuccessRate(100);
+
+            }
+
+            else if (speed == 9) {
+                
+            }
+
+            else if (speed == 10)
+            {
+                Console.WriteLine("77% success rate");
+            }
+
+
+            else {
+                Console.WriteLine("Enter speed between 1 and 10");
+            }
         /// <summary>
         /// The <c>ProductionRatePerHour</c> method calculates the assembly line's production rate
         /// per hour, taking into account its success rate. At its lowest speed (1)the production

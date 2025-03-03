@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\L00171169\Desktop\LeapYear\Leap.cs" Link="Leap.cs" />
+    <Compile Include="C:\Users\L00171169\OneDrive - Atlantic TU\Applied Computing\Year 2\Commercial Programming\Leap.cs" Link="Leap.cs" />
+  </ItemGroup>
 
 </Project>
